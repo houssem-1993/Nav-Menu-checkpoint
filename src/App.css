@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.Navmenu{
+  display: flex;
+  position: relative;
+  padding: 5px 10px;
+  border-bottom: 1px solid #2196f7;
+  justify-content: center;
+  
+}
+  
+  .dropdown{
+    display: none;
+    border:1px solid #2196f7;
+    margin-top: 8px ;
+    
+  }
+  .test:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  .change{
+    margin-right: 20px;
+    padding-bottom: 8px;
+  }
+.test{
+  margin-right: 20px;
+  padding-bottom:8px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #2196f7;
+}
